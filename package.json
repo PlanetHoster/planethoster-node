@@ -30,8 +30,6 @@
     "typescript": "^3.3.4000"
   },
   "dependencies": {
-    "install": "^0.12.2",
-    "npm": "^6.9.0",
     "typed-rest-client": "^1.2.0"
   }
 }
