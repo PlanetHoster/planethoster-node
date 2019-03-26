@@ -12,7 +12,7 @@ An async API wrapper for the PlanetHoster API, every call will return a __promis
 
 Please refer to the documentation of the [PlanetHoster API](https://apidoc.planethoster.com/) for all calls explained.
 
-You can try it now with [NPM RunKit](https://my.planethoster.com/)
+You can try it now with [NPM RunKit](https://npm.runkit.com/planethoster-api)
 
 ## Installation
     npm install planethoster-api
