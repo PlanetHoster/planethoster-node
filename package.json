@@ -1,8 +1,8 @@
 {
-  "name": "planethoster-node",
+  "name": "planethoster-api",
   "version": "1.0.0",
   "description": "An async API wrapper for the PlanetHoster API",
-  "main": "planethoster-node.js",
+  "main": "planethoster-api.js",
   "files": [
     "lib/**/*"
   ],
@@ -30,8 +30,6 @@
     "typescript": "^3.3.4000"
   },
   "dependencies": {
-    "install": "^0.12.2",
-    "npm": "^6.9.0",
     "typed-rest-client": "^1.2.0"
   }
 }
