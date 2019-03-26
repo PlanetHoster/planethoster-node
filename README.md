@@ -1,10 +1,10 @@
 # Planethoster Api
 
 [![NPM](https://nodei.co/npm/node-planethoster.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/node-planethoster/)
+
+
 [![Build Status](https://travis-ci.org/PlanetHoster/planethoster-node.svg?branch=master)](https://travis-ci.org/PlanetHoster/planethoster-node)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-![PlanetHoster NPM logo](img/planethoster-node.png)
 
 An async API wrapper for the PlanetHoster API, every call will return a __promise__
 
