@@ -1,0 +1,37 @@
+{
+  "name": "planethoster-node",
+  "version": "1.0.0",
+  "description": "An async API wrapper for the PlanetHoster API",
+  "main": "planethoster-node.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "pretest": "npm run build",
+    "test": "jest --config jestconfig.json",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Marcandreg/planethoster-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Marcandreg/planethoster-node/issues"
+  },
+  "homepage": "https://gitlab.com/Marcandreg/planethoster-node#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.11.4",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "install": "^0.12.2",
+    "npm": "^6.9.0",
+    "typed-rest-client": "^1.2.0"
+  }
+}
