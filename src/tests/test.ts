@@ -1,8 +1,7 @@
-var PlanetHosterNode = require("../planethoster-node");
-
+var PlanetHosterApi= require("../planethoster-api");
 
 test('PlanetHosterNode', () => {
-  var planethosterClient = new PlanetHosterNode({
+  var planethosterClient = new PlanetHosterApi({
     api_key: '',
     api_user: ''
   });

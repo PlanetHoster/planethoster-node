@@ -11,19 +11,19 @@ An async API wrapper for the PlanetHoster API, every call will return a __promis
 Please refer to the documentation of the [PlanetHoster API](https://apidoc.planethoster.com/) for all calls explained.
 
 ## Installation
-    npm install planethoster-node
+    npm install planethoster-api
 
 ## Initialization
 In order to use this module, you have to import it first
 
 ```javascript
-var PlanetHosterNode = require('planethoster-node');
+var PlanetHosterApi = require('planethoster-api');
 ```
 
 Then, initialize the PlanetHoster object with the keys you obtained from the [PlanetHoster Dashboard](https://my.planethoster.com/)
 
 ```javascript
-const planethosterClient = new PlanetHosterNode({
+const planethosterClient = new PlanetHosterApi({
   api_key: 'API_KEY',
   api_user: 'API_USER'
 })

@@ -1,8 +1,8 @@
 {
-  "name": "planethoster-node",
+  "name": "planethoster-api",
   "version": "1.0.0",
   "description": "An async API wrapper for the PlanetHoster API",
-  "main": "planethoster-node.js",
+  "main": "planethoster-api.js",
   "files": [
     "lib/**/*"
   ],

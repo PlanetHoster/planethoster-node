@@ -3,7 +3,7 @@ import { World } from "./api/world";
 import * as ifm from './utilities/interfaces/interfaces'
 import { HttpClient } from "./utilities/http-client";
 
-export class PlanetHosterNode{
+export class PlanetHosterApi{
 
   private apiCredentials: ifm.ICredentials
   private httpClient: HttpClient;
@@ -23,4 +23,4 @@ export class PlanetHosterNode{
 
 }
 
-module.exports = PlanetHosterNode;
+module.exports = PlanetHosterApi;
