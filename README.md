@@ -1,6 +1,6 @@
 # Planethoster Api
 
-[![NPM](https://nodei.co/npm/node-planethoster.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/node-planethoster/)
+[![NPM](https://nodei.co/npm/planethoster-api.png)](https://nodei.co/npm/planethoster-api/)
 
 
 [![Build Status](https://travis-ci.org/PlanetHoster/planethoster-node.svg?branch=master)](https://travis-ci.org/PlanetHoster/planethoster-node)
