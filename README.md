@@ -36,16 +36,18 @@ const planethosterClient = new planethosterApi({
 ## Examples
 ```javascript
 // Domain API
-planethosterClient.domain().testConnection().then(function (result){
-  console.log(result);
-}).catch(function (e){
-  console.log(e);
-})
+async function domainTestConnection(){
+    let res = await planethosterClient.domain().testConnection();
+    console.log(res);
+}
+
+domainTestConnection();
 
 // World API
-planethosterClient.world().testConnection().then(function (result){
-  console.log(result);
-}).catch(function (e){
-  console.log(e);
-})
+async function worldTestConnection(){
+    let res = await planethosterClient.world().testConnection();
+    console.log(res);
+}
+
+worldTestConnection();
 ```
