@@ -60,7 +60,7 @@ let res = await planethosterClient.domain()[...] // options down below
 ```javascript
 .tldPrices() // Returns domain name prices for registration, renewal and transfer.
 .accountInfo() // Returns information pertinent to your reseller account. (active doamin, credit left, etc..)
-.checkAvailability({}) // Checks whether a domain name is available to register.
+.checkAvailability() // Checks whether a domain name is available to register.
 .domainInfo() // Retrieve information for a domain which you successfully registered or created a transfer order.
 .getContactDetails() // Returns the contact information (WHOIS information) for the active domain name.
 .getNameservers() // Returns the nameservers for a registered domain name.
