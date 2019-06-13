@@ -3,6 +3,7 @@
 [![NPM](https://nodei.co/npm/planethoster-api.png)](https://nodei.co/npm/planethoster-api/)
 
 [![Build Status](https://travis-ci.org/PlanetHoster/planethoster-node.svg?branch=master)](https://travis-ci.org/PlanetHoster/planethoster-node)
+![npm](https://img.shields.io/npm/dw/planethoster-api.svg)
 ![David](https://img.shields.io/david/dev/PlanetHoster/planethoster-node.svg)
 ![David](https://img.shields.io/david/PlanetHoster/planethoster-node.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -60,7 +61,7 @@ let res = await planethosterClient.domain()[...] // options down below
 ```javascript
 .tldPrices() // Returns domain name prices for registration, renewal and transfer.
 .accountInfo() // Returns information pertinent to your reseller account. (active doamin, credit left, etc..)
-.checkAvailability({}) // Checks whether a domain name is available to register.
+.checkAvailability() // Checks whether a domain name is available to register.
 .domainInfo() // Retrieve information for a domain which you successfully registered or created a transfer order.
 .getContactDetails() // Returns the contact information (WHOIS information) for the active domain name.
 .getNameservers() // Returns the nameservers for a registered domain name.
