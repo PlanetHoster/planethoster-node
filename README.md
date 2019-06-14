@@ -10,7 +10,7 @@
 
 An async API wrapper for the PlanetHoster API, every call will return a __promise__
 
-Please refer to the documentation of the [PlanetHoster API](https://apidoc.planethoster.com/) for all calls explained.
+Please refer to the documentation of the [PlanetHoster API](https://apidoc.planethoster.com/) for all calls explanation.
 
 You can try it now with [NPM RunKit](https://npm.runkit.com/planethoster-api)
 
