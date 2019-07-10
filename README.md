@@ -4,8 +4,6 @@
 
 [![Build Status](https://travis-ci.org/PlanetHoster/planethoster-node.svg?branch=master)](https://travis-ci.org/PlanetHoster/planethoster-node)
 ![npm](https://img.shields.io/npm/dw/planethoster-api.svg)
-![David](https://img.shields.io/david/dev/PlanetHoster/planethoster-node.svg)
-![David](https://img.shields.io/david/PlanetHoster/planethoster-node.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An async API wrapper for the PlanetHoster API, every call will return a __promise__
