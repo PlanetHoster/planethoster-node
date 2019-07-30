@@ -9,7 +9,7 @@ export class World{
   }
 
   public async testConnection(){
-    return await this.httpClient.getCall(
+    return this.httpClient.getCall(
       {
         path: '/world-api/test-connection', 
         payload: {}
@@ -18,7 +18,7 @@ export class World{
   }
 
   public async getAccounts(){
-    return await this.httpClient.getCall(
+    return this.httpClient.getCall(
       {
         path: '/world-api/test-connection', 
         payload: {}
@@ -27,7 +27,7 @@ export class World{
   }
 
   public async createAccount(params: iworld.ICreateAccount){
-    return await this.httpClient.postCall(
+    return this.httpClient.postCall(
       {
         path: '/world-api/create-account',
         payload: params
@@ -36,7 +36,7 @@ export class World{
   }
   
   public async suspendAccount(params: iworld.ISuspend){
-    return await this.httpClient.postCall(
+    return this.httpClient.postCall(
       {
         path: '/world-api/suspend-account',
         payload: params
@@ -45,7 +45,7 @@ export class World{
   }
 
   public async unsuspendAccount(params: iworld.IId){
-    return await this.httpClient.postCall(
+    return this.httpClient.postCall(
       {
         path: '/world-api/unsuspend-account',
         payload: params
@@ -54,7 +54,7 @@ export class World{
   }
   
   public async modifyRessources(params: iworld.IIdRess){
-    return await this.httpClient.postCall(
+    return this.httpClient.postCall(
       {
         path: '/world-api/modify-ressources',
         payload: params
@@ -63,13 +63,12 @@ export class World{
   }
 
   public async upgradePlan(params: iworld.IRess){
-    return await this.httpClient.postCall(
+    return this.httpClient.postCall(
       {
         path: '/world-api/upgrade-plan',
         payload: params
       }
     );
   }
-
 
 }

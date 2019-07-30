@@ -11,7 +11,7 @@ export class Domain{
 
   
   public async testConnection(){
-    return await this.httpClient.getCall(
+    return this.httpClient.getCall(
       {
         path: '/reseller-api/test-connection', 
         payload: {}
@@ -20,7 +20,7 @@ export class Domain{
   }
 
   public async tldPrices(){
-    return await this.httpClient.getCall(
+    return this.httpClient.getCall(
       {
         path: '/reseller-api/tld-prices', 
         payload: {}
@@ -29,7 +29,7 @@ export class Domain{
   }
 
   public async accountInfo(){
-    return await this.httpClient.getCall(
+    return this.httpClient.getCall(
       {
         path: '/reseller-api/account-info', 
         payload: {}
@@ -38,7 +38,7 @@ export class Domain{
   }
 
   public async checkAvailability(params: idom.ISldTld){
-    return await this.httpClient.getCall(
+    return this.httpClient.getCall(
       {
         path: '/reseller-api/account-info',
         payload: params
@@ -47,7 +47,7 @@ export class Domain{
   }
 
   public async domainInfo(params: idom.ISldTld){
-    return await this.httpClient.getCall(
+    return this.httpClient.getCall(
       {
         path: '/reseller-api/domain-info',
         payload: params
@@ -56,7 +56,7 @@ export class Domain{
   }
 
   public async getContactDetails(params: idom.ISldTld){
-    return await this.httpClient.getCall(
+    return this.httpClient.getCall(
       {
         path: '/reseller-api/get-contact-details',
         payload: params
@@ -65,7 +65,7 @@ export class Domain{
   }
 
   public async getNameservers(params: idom.ISldTld){
-    return await this.httpClient.getCall(
+    return this.httpClient.getCall(
       {
         path: '/reseller-api/get-nameservers',
         payload: params
@@ -74,7 +74,7 @@ export class Domain{
   }
 
   public async getPhDnsRecord(params: idom.ISldTld){
-    return await this.httpClient.getCall(
+    return this.httpClient.getCall(
       {
         path: '/reseller-api/get-ph-dns-records',
         payload: params
@@ -83,7 +83,7 @@ export class Domain{
   }
 
   public async getRegistrarLock(params: idom.ISldTld){
-    return await this.httpClient.getCall(
+    return this.httpClient.getCall(
       {
         path: '/reseller-api/get-registrar-lock',
         payload: params
@@ -92,7 +92,7 @@ export class Domain{
   }
 
   public async saveContactDetails(params: idom.IContactDetails){
-    return await this.httpClient.postCall(
+    return this.httpClient.postCall(
       {
         path: '/reseller-api/save-contact-details',
         payload: params
@@ -101,7 +101,7 @@ export class Domain{
   }
 
   public async saveNameservers(params: idom.INameservers){
-    return await this.httpClient.postCall(
+    return this.httpClient.postCall(
       {
         path: '/reseller-api/save-nameservers',
         payload: params
@@ -110,7 +110,7 @@ export class Domain{
   }
 
   public async savePhDnsRecords(params: idom.IPhDnsRecords){
-    return await this.httpClient.postCall(
+    return this.httpClient.postCall(
       {
         path: '/reseller-api/save-ph-dns-records',
         payload: params
@@ -119,7 +119,7 @@ export class Domain{
   }
 
   public async saveRegistrarLock(params: idom.IRegLock){
-    return await this.httpClient.postCall(
+    return this.httpClient.postCall(
       {
         path: '/reseller-api/save-registrar-lock',
         payload: params
@@ -128,7 +128,7 @@ export class Domain{
   }
 
   public async emailEppCode(params: idom.ISldTld){
-    return await this.httpClient.postCall(
+    return this.httpClient.postCall(
       {
         path: '/reseller-api/email-epp-code',
         payload: params
@@ -137,7 +137,7 @@ export class Domain{
   }
 
   public async registerDomain(params: idom.IRegisterDomain){
-    return await this.httpClient.postCall(
+    return this.httpClient.postCall(
       {
         path: '/reseller-api/register-domain',
         payload: params
@@ -146,7 +146,7 @@ export class Domain{
   }
 
   public async renewDomain(params: idom.IRenewDomain){
-    return await this.httpClient.postCall(
+    return this.httpClient.postCall(
       {
         path: '/reseller-api/renew-domain',
         payload: params
@@ -155,7 +155,7 @@ export class Domain{
   }
 
   public async transferDomain(params: idom.ITransferDomain){
-    return await this.httpClient.postCall(
+    return this.httpClient.postCall(
       {
         path: '/reseller-api/transfer-domain',
         payload: params
@@ -164,7 +164,7 @@ export class Domain{
   }
 
   public async deletePhDnsZone(params: idom.ISldTld){
-    return await this.httpClient.postCall(
+    return this.httpClient.postCall(
       {
         path: '/reseller-api/delete-ph-dns-zone',
         payload: params
