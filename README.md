@@ -1,4 +1,4 @@
-### THIS REPO IS OUTDATED PLEASE REFER TO [ph-node-api](https://github.com/PlanetHoster/ph-node-api)
+### THIS REPO IS OUTDATED PLEASE REFER TO [PH-NODE-API](https://github.com/PlanetHoster/ph-node-api)
 
 # Planethoster Api
 
