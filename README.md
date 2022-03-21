@@ -1,3 +1,5 @@
+### THIS REPO IS OUTDATED PLEASE REFER TO [ph-node-api](https://github.com/PlanetHoster/ph-node-api)
+
 # Planethoster Api
 
 [![NPM](https://nodei.co/npm/planethoster-api.png)](https://nodei.co/npm/planethoster-api/)
